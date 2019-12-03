@@ -13,6 +13,14 @@ mongoose.connect(MONGOURI, { useNewUrlParser: true }, err => {
   console.log(err || `Connected to MongoDB.`);
 });
 
+if (process.env.NODE_ENV === "production") {
+  app.use((req, res, next) => {
+    if (req.header("x-forwarded-proto") !== "https")
+      res.redirect(`https://${req.header("host")}${req.url}`);
+    else next();
+  });
+}
+
 app.use(express.static(`${__dirname}/client/build`));
 app.use(logger("dev"));
 app.use(express.json());

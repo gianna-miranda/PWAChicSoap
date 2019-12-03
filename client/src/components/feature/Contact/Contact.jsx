@@ -8,10 +8,11 @@ const ContactPg = () => {
             <section class="mb-4">
 <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
 <p class="text-center w-responsive mx-auto mb-5">If you have any questions about our soups and or the ingredients we use, feel free to send us a message!</p>
+<div className="container-fluid">
 <div class="row">
     <div class="col-md-9 mb-md-0 mb-5 form">
         <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-            
+            <div className="container-fluid">
             <div class="row">
                 <div class="col-md-6">
                     <div class="md-form mb-0">
@@ -26,7 +27,8 @@ const ContactPg = () => {
                     </div>
                 </div>
             </div>
-
+            </div>
+            <div className="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="md-form mb-0">
@@ -34,7 +36,8 @@ const ContactPg = () => {
                     </div>
                 </div>
             </div>
-
+            </div>
+            <div className="container-fluid">
             <div class="row">
  
                 <div class="col-md-12">
@@ -46,6 +49,7 @@ const ContactPg = () => {
 
                 </div>
             </div>     
+            </div>
         </form>
 
         <div class="text-center text-md-left filtersection">
@@ -55,7 +59,7 @@ const ContactPg = () => {
     </div>
 
 </div>
-
+</div>
 </section>
 </div>
      </React.Fragment>

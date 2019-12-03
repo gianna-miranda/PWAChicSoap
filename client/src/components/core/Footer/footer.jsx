@@ -6,7 +6,7 @@ function Footer() {
       className="section footer-classic context-white bg-image"
       style={{ background: "green" }}
     >
-      <div className="container">
+      <div className="container-fluid">
         <div className="row row-30">
           <div className="col-md-4 col-xl-5">
             <div className="pr-xl-4">
@@ -40,6 +40,7 @@ function Footer() {
           </div>
         </div>
       </div>
+      <div className="container-fluid">
       <div className="row no-gutters social-container">
         <div className="col">
           <a className="social-inner" href="https://www.facebook.com">
@@ -58,8 +59,8 @@ function Footer() {
             <span className="icon mdi mdi-twitter" />
             <span>twitter</span>
           </a>
-        </div>
-       
+        </div>   
+      </div>
       </div>
     </footer>
   );
