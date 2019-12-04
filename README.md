@@ -31,11 +31,11 @@ npm run start
 
 ## Mobile App 
 
-![](client/image/beforepwascore.png)
+![PWA SCORE BEFORE](client/image/beforepwascore.png)
 
-![](client/image/afterpwascore.png)
+![PWA SCORE AFTER](client/image/afterpwascore.png)
 
-![](client/image/iphoneimg.png)
+![MOBILE APP](client/image/iphoneimg.png)
 
 
 ## Authors
