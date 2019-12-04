@@ -30,9 +30,9 @@ npm run start
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - MongoDB Atlas for hosting my Mongodb database.
 
 ## Mobile App 
-- ![PWA SCORE BEFORE](/image/LightHouse ScreenShot.png)
-- ![PWA SCORE AFTER](/image/Screen Shot 2019-12-04 at 2.49.28 PM.png)
-- ![PWA Mobile](/image/Image from iOS.png)
+- ![](/image/LightHouse ScreenShot.png)
+- ![](/image/Screen Shot 2019-12-04 at 2.49.28 PM.png)
+- ![](/image/Image from iOS.png)
 
 
 ## Authors
