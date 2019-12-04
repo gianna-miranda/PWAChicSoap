@@ -34,6 +34,7 @@ class Modal extends React.Component {
                                     <div className="overlay">
                                         <p className="price">{item.original_price}</p>
                                         <p className="name">{item.ProductName}</p> 
+                                        <p className="description">{item.Description}</p> 
                                     </div>
                                 </a>
                             </div>

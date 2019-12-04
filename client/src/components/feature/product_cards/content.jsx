@@ -26,14 +26,14 @@ _ZtoAfilter = () => {
 _filterByLowest = () => {
     fetch('/api/products')
         .then(res => res.json())
-        .then(albums => this.setState({ products: albums }))
+        .then(products => this.setState({ products: products }))
     console.log('working')
    
 }
 _filterByHighest = () => {
     fetch('/api/products')
         .then(res => res.json())
-        .then(albums => this.setState({ products: albums }))
+        .then(products => this.setState({ products: products }))
     console.log(this.state.products)
     
 }
