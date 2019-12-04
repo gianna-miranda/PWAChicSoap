@@ -7,7 +7,7 @@ function Footer() {
       style={{ background: "green" }}
     >
       <div className="container-fluid">
-        <div className="row row-30">
+        <div className="row">
           <div className="col-md-4 col-xl-5">
             <div className="pr-xl-4">
 
