@@ -165,9 +165,9 @@
 @media only screen and (max-width: 950px) {
     #nav:checked ~ .nav__list--wrapper {
         height: 100vh;
-        background-color:lightpink;
+        background-color:rgb(157, 240, 191);
     }
 }
 .active {
-    color: lightgreen;
+    color: rgb(115, 216, 145);
 }
