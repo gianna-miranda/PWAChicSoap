@@ -4,7 +4,7 @@ This project is a soap shop ecommerce website made with React for front-end, a N
 
 ## Live app on heroku 
 
-    https://chicsoap.herokuapp.com
+   https://chicsoappwa.herokuapp.com/
 
 ### Installing
 
@@ -28,6 +28,12 @@ npm run start
 - [NodeJS](https://nodejs.org/en/) - Back-end
 - [React](https://reactjs.org/) - Front-end
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - MongoDB Atlas for hosting my Mongodb database.
+
+## Mobile App 
+- ![PWA SCORE BEFORE](/image/LightHouse ScreenShot.png)
+- ![PWA SCORE AFTER](/image/Screen Shot 2019-12-04 at 2.49.28 PM.png)
+- ![PWA Mobile](/image/Image from iOS.png)
+
 
 ## Authors
 
